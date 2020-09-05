@@ -4,7 +4,8 @@ just some small binary with almost no dependencies, for mostly container tests
 
 ## motivation
 
-when you just want to pause a container, to exec into and do some stuff.
+- sometimes you want to start a container and just pause it for a while
+- give rust some love :heart:
 
 easier to use, than to remember sth. like the following line
 
@@ -36,7 +37,7 @@ pause for 5 seconds:
 
 ## build
 
-`cargo build`
+`cargo build --release`
 
 ## docker 
 
